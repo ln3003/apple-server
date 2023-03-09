@@ -4,7 +4,7 @@ main().catch((err) => console.log(err));
 
 async function main() {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/shop");
+    await mongoose.connect("mongodb+srv://root:okyouwin11@cluster0.skuqtts.mongodb.net/shop?retryWrites=true&w=majority");
   } catch (error) {
     console.log(error);
   }
