@@ -23,7 +23,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-const whitelist = ["http://localhost:3000", "http://localhost:3001"];
+const whitelist = ["https://admin.ngh.one", "https://apple.ngh.one"];
 const corsOptions = {
   origin: whitelist,
   methods: ["POST", "GET", "PATCH", "DELETE"],
