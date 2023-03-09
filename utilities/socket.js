@@ -4,7 +4,7 @@ module.exports = {
   init: (server) => {
     io = require("socket.io")(server, {
       cors: {
-        origin: ["http://localhost:3000", "http://localhost:3001"],
+        origin: ["https://admin.ngh.one", "https://apple.ngh.one"],
         methods: ["POST", "PUT", "GET", "OPTIONS", "HEAD"],
         credentials: true,
       },
