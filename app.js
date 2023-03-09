@@ -14,7 +14,7 @@ const bodyParser = require("body-parser");
 const io = require("./utilities/socket");
 
 const store = new MongoDBStore({
-  uri: "mongodb://127.0.0.1:27017/shop",
+  uri: "mongodb+srv://root:okyouwin11@cluster0.skuqtts.mongodb.net/shop?retryWrites=true&w=majority",
   collection: "session",
 });
 
